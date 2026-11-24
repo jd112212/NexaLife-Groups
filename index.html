@@ -1,0 +1,1588 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PrimeShield Group | Premium Real Estate & Comprehensive Insurance Advisory</title>
+  <meta name="description" content="PrimeShield Group provides elite real estate advisory for exclusive lands and villas in SGIM (Chola's Empire, Temple Town, Vateka) and premier insurance advisory with HDFC, TVS Galaxy, and Central Bank of India. Led by Founder Teekaraman.P.">
+  <meta name="keywords" content="PrimeShield Group, Teekaraman P, SGIM Real Estate, Chola's Empire, Temple Town, Vateka, Villa in SGIM, Lands in SGIM, HDFC Insurance, TVS Galaxy Health Insurance, Central Bank of India, Industrial Health Insurance">
+  <meta name="author" content="PrimeShield Group">
+  <meta property="og:title" content="PrimeShield Group - Real Estate & Insurance Advisory">
+  <meta property="og:description" content="Safeguarding your wealth and living standards through premium SGIM real estate and bespoke insurance portfolios.">
+  <meta property="og:type" content="website">
+
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          colors: {
+            navy: {
+              deep: '#060c18',
+              primary: '#0b1528',
+              card: 'rgba(14, 25, 46, 0.85)',
+              border: 'rgba(212, 175, 55, 0.2)'
+            },
+            gold: {
+              light: '#f5df88',
+              DEFAULT: '#d4af37',
+              dark: '#aa820a'
+            }
+          },
+          fontFamily: {
+            serif: ['Cinzel', 'Georgia', 'serif'],
+            sans: ['"Plus Jakarta Sans"', 'system-ui', 'sans-serif']
+          }
+        }
+      }
+    }
+  </script>
+
+  <!-- Font Awesome 6 Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="css/custom.css">
+</head>
+<body class="bg-[#060c18] text-slate-100 antialiased selection:bg-amber-500/30 selection:text-amber-200 min-h-screen flex flex-col justify-between relative">
+
+  <!-- ==========================================
+       DYNAMIC FULLSCREEN BACKGROUND ENGINE
+       ========================================== -->
+  <div id="global-bg-container" class="fixed inset-0 w-full h-full -z-10 overflow-hidden pointer-events-none">
+    <!-- Image Media -->
+    <div id="bg-image" class="absolute inset-0 w-full h-full bg-cover bg-center transition-all duration-700"></div>
+
+    <!-- Looping Video Media -->
+    <video id="bg-video" class="absolute inset-0 w-full h-full object-cover hidden transition-all duration-700" autoplay muted loop playsinline></video>
+
+    <!-- Custom Configurable Dark Overlay & Blur -->
+    <div id="bg-overlay" class="absolute inset-0 w-full h-full transition-all duration-300"></div>
+
+    <!-- Subtle Golden Vignette / Ambient Mesh -->
+    <div class="absolute inset-0 bg-gradient-to-t from-[#060c18] via-transparent to-[#060c18]/80 pointer-events-none"></div>
+  </div>
+
+  <!-- ==========================================
+       FIXED TOP NAVIGATION BAR
+       ========================================== -->
+  <header class="fixed top-0 left-0 right-0 z-40 glass-navbar transition-all duration-300">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
+      
+      <!-- Brand Logo / Identity -->
+      <a href="#home" data-nav-target="page-home" class="flex items-center gap-3.5 group">
+        <div class="w-11 h-11 rounded-xl bg-gradient-to-br from-amber-300 via-amber-500 to-amber-700 p-0.5 shadow-lg shadow-amber-500/20 group-hover:scale-105 transition-transform duration-300">
+          <div class="w-full h-full bg-[#070e1b] rounded-[10px] flex items-center justify-center border border-amber-400/40">
+            <i class="fa-solid fa-shield-halved text-amber-400 text-lg group-hover:text-amber-300 transition-colors"></i>
+          </div>
+        </div>
+        <div>
+          <span class="block text-lg sm:text-xl font-bold font-serif tracking-wider text-white group-hover:text-amber-300 transition-colors">
+            PrimeShield <span class="gold-text">Group</span>
+          </span>
+          <span class="block text-[10px] font-medium tracking-widest uppercase text-slate-400">
+            Real Estate & Insurance Advisory
+          </span>
+        </div>
+      </a>
+
+      <!-- Desktop Nav Links -->
+      <nav class="hidden md:flex items-center gap-1 lg:gap-2">
+        <a href="#home" data-nav-target="page-home" data-target="page-home" class="nav-link px-3.5 py-2 text-xs font-semibold tracking-wider uppercase transition-colors rounded-lg border-b-2 border-amber-400 text-amber-400">
+          Home
+        </a>
+        <a href="#about" data-nav-target="page-about" data-target="page-about" class="nav-link px-3.5 py-2 text-xs font-semibold tracking-wider uppercase text-slate-300 hover:text-amber-300 transition-colors rounded-lg border-b-2 border-transparent">
+          About & Services
+        </a>
+        <a href="#realestate" data-nav-target="page-realestate" data-target="page-realestate" class="nav-link px-3.5 py-2 text-xs font-semibold tracking-wider uppercase text-slate-300 hover:text-amber-300 transition-colors rounded-lg border-b-2 border-transparent">
+          Real Estate
+        </a>
+        <a href="#insurance" data-nav-target="page-insurance" data-target="page-insurance" class="nav-link px-3.5 py-2 text-xs font-semibold tracking-wider uppercase text-slate-300 hover:text-amber-300 transition-colors rounded-lg border-b-2 border-transparent">
+          Insurance
+        </a>
+        <a href="#contact" data-nav-target="page-contact" data-target="page-contact" class="nav-link px-3.5 py-2 text-xs font-semibold tracking-wider uppercase text-slate-300 hover:text-amber-300 transition-colors rounded-lg border-b-2 border-transparent">
+          Contact
+        </a>
+      </nav>
+
+      <!-- Right Header Actions: Admin portal & Quick Call -->
+      <div class="hidden lg:flex items-center gap-3">
+        <!-- Admin button -->
+        <button type="button" class="btn-open-admin-portal px-3 py-1.5 rounded-lg text-xs font-semibold text-slate-300 hover:text-amber-300 bg-slate-900/60 hover:bg-slate-800 border border-slate-700/80 transition-colors flex items-center gap-1.5" title="Admin Portal (Villas & Leads)">
+          <i class="fa-solid fa-lock text-amber-400/80 text-[11px]"></i>
+          <span>Admin</span>
+        </button>
+
+        <!-- Tap-to-call direct -->
+        <a href="tel:9962699649" class="px-3.5 py-2 rounded-xl btn-gold text-xs font-bold flex items-center gap-2">
+          <i class="fa-solid fa-phone-volume text-xs"></i>
+          <span>99626 99649</span>
+        </a>
+      </div>
+
+      <!-- Mobile Hamburger Button -->
+      <div class="flex items-center gap-2 md:hidden">
+        <button type="button" class="btn-open-admin-portal p-2 rounded-lg text-slate-300 hover:text-amber-400 bg-slate-900/60 border border-slate-700 text-xs">
+          <i class="fa-solid fa-lock"></i>
+        </button>
+        <button id="mobile-menu-toggle" type="button" class="p-2.5 rounded-xl text-slate-300 hover:text-amber-400 bg-slate-900/60 border border-slate-700 focus:outline-none" aria-label="Toggle navigation menu">
+          <i class="fa-solid fa-bars text-lg"></i>
+        </button>
+      </div>
+
+    </div>
+
+    <!-- Mobile Navigation Drawer -->
+    <div id="mobile-nav-menu" class="hidden md:hidden glass-panel border-t border-slate-800 px-4 pt-3 pb-6 space-y-2 animate-fadeIn">
+      <a href="#home" data-nav-target="page-home" data-target="page-home" class="nav-link block px-4 py-2.5 rounded-xl text-sm font-semibold tracking-wider uppercase text-slate-200 hover:bg-slate-800/80 hover:text-amber-400">
+        <i class="fa-solid fa-house w-6 text-amber-400"></i> Home
+      </a>
+      <a href="#about" data-nav-target="page-about" data-target="page-about" class="nav-link block px-4 py-2.5 rounded-xl text-sm font-semibold tracking-wider uppercase text-slate-200 hover:bg-slate-800/80 hover:text-amber-400">
+        <i class="fa-solid fa-users-viewfinder w-6 text-amber-400"></i> About & Services
+      </a>
+      <a href="#realestate" data-nav-target="page-realestate" data-target="page-realestate" class="nav-link block px-4 py-2.5 rounded-xl text-sm font-semibold tracking-wider uppercase text-slate-200 hover:bg-slate-800/80 hover:text-amber-400">
+        <i class="fa-solid fa-city w-6 text-amber-400"></i> Real Estate (SGIM)
+      </a>
+      <a href="#insurance" data-nav-target="page-insurance" data-target="page-insurance" class="nav-link block px-4 py-2.5 rounded-xl text-sm font-semibold tracking-wider uppercase text-slate-200 hover:bg-slate-800/80 hover:text-amber-400">
+        <i class="fa-solid fa-shield-halved w-6 text-amber-400"></i> Insurance Advisory
+      </a>
+      <a href="#contact" data-nav-target="page-contact" data-target="page-contact" class="nav-link block px-4 py-2.5 rounded-xl text-sm font-semibold tracking-wider uppercase text-slate-200 hover:bg-slate-800/80 hover:text-amber-400">
+        <i class="fa-solid fa-address-book w-6 text-amber-400"></i> Contact / Advisory
+      </a>
+
+      <div class="pt-3 border-t border-slate-800 flex items-center justify-between gap-2">
+        <a href="tel:9962699649" class="w-full py-2.5 rounded-xl btn-gold text-xs font-bold text-center flex items-center justify-center gap-2">
+          <i class="fa-solid fa-phone"></i> Call 99626 99649
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <!-- ==========================================
+       MAIN CONTENT CONTAINER (5 PAGES)
+       ========================================== -->
+  <main class="flex-grow pt-20">
+
+    <!-- ========================================================
+         PAGE 1: HOME (BRAND)
+         Strict Requirement:
+         - Show ONLY: brand name "PrimeShield Group", a short tagline,
+           and buttons to the other pages.
+         - Do NOT show any villa details (no prices, areas, or listings)
+         - Small background customization panel settings icon
+         ======================================================== -->
+    <section id="page-home" class="page-view active min-h-[calc(100vh-80px)] flex items-center justify-center relative px-4 sm:px-6 lg:px-8">
+      
+      <!-- Small Background Settings Toggle Button (Top Right / Bottom Right) -->
+      <div class="absolute top-6 right-6 z-30">
+        <button id="bg-settings-btn" type="button" class="w-11 h-11 rounded-full glass-panel hover:border-amber-400 text-slate-200 hover:text-amber-300 flex items-center justify-center shadow-xl transition-all duration-300 hover:rotate-90 group" title="Customize Background & Ambience">
+          <i class="fa-solid fa-sliders text-base text-amber-400 group-hover:scale-110"></i>
+        </button>
+      </div>
+
+      <!-- Background Customization Panel (Pop-out / Modal Drawer) -->
+      <div id="bg-customization-panel" class="hidden absolute top-20 right-6 z-40 w-80 sm:w-96 glass-panel rounded-2xl p-5 shadow-2xl border border-amber-500/30 text-xs animate-fadeIn">
+        <div class="flex items-center justify-between pb-3 border-b border-slate-700/60 mb-4">
+          <div class="flex items-center gap-2">
+            <i class="fa-solid fa-palette text-amber-400"></i>
+            <span class="font-bold text-white text-sm font-serif">Background Settings</span>
+          </div>
+          <button id="close-bg-panel" type="button" class="text-slate-400 hover:text-white p-1">
+            <i class="fa-solid fa-xmark text-sm"></i>
+          </button>
+        </div>
+
+        <!-- Media Type Selector -->
+        <div class="mb-4">
+          <label class="block text-slate-300 font-semibold mb-2">Media Type</label>
+          <div class="grid grid-cols-2 gap-2">
+            <label class="flex items-center justify-center gap-2 py-2 px-3 rounded-lg border border-slate-700 cursor-pointer hover:border-amber-400 has-[:checked]:border-amber-400 has-[:checked]:bg-amber-500/10 transition-colors">
+              <input type="radio" name="bg-media-type" id="bg-type-image" value="image" checked class="accent-amber-400">
+              <span class="text-slate-200 font-medium">Villa Image</span>
+            </label>
+            <label class="flex items-center justify-center gap-2 py-2 px-3 rounded-lg border border-slate-700 cursor-pointer hover:border-amber-400 has-[:checked]:border-amber-400 has-[:checked]:bg-amber-500/10 transition-colors">
+              <input type="radio" name="bg-media-type" id="bg-type-video" value="video" class="accent-amber-400">
+              <span class="text-slate-200 font-medium">Looping Video</span>
+            </label>
+          </div>
+        </div>
+
+        <!-- Preset Villa Images -->
+        <div class="mb-4">
+          <label class="block text-slate-300 font-semibold mb-2">Preset Villa Backgrounds</label>
+          <div id="preset-images-list" class="grid grid-cols-2 gap-2 mb-2"></div>
+        </div>
+
+        <!-- Preset Videos -->
+        <div class="mb-4">
+          <label class="block text-slate-300 font-semibold mb-2">Preset Video Walkthroughs</label>
+          <div id="preset-videos-list" class="grid grid-cols-2 gap-2 mb-2"></div>
+        </div>
+
+        <!-- Upload Custom Image / Video -->
+        <div class="mb-4 pt-3 border-t border-slate-700/60">
+          <label class="block text-slate-300 font-semibold mb-1.5">Upload Custom Background</label>
+          <label class="w-full flex items-center justify-center gap-2 py-2.5 px-3 rounded-xl border border-dashed border-amber-500/40 hover:border-amber-400 cursor-pointer bg-slate-900/40 text-slate-300 hover:text-amber-300 transition-colors">
+            <i class="fa-solid fa-cloud-arrow-up text-amber-400"></i>
+            <span>Choose Image or Video File</span>
+            <input type="file" id="bg-file-upload" accept="image/*,video/mp4,video/webm" class="hidden">
+          </label>
+          <p id="upload-status-text" class="hidden mt-1.5 text-[11px] text-emerald-400 truncate"></p>
+        </div>
+
+        <!-- Overlay Darkness Slider -->
+        <div class="mb-3">
+          <div class="flex items-center justify-between mb-1">
+            <span class="text-slate-300 font-semibold">Overlay Darkness</span>
+            <span id="overlay-darkness-val" class="text-amber-400 font-bold">65%</span>
+          </div>
+          <input type="range" id="overlay-darkness-slider" min="20" max="95" value="65" class="w-full">
+        </div>
+
+        <!-- Overlay Blur Slider -->
+        <div class="mb-4">
+          <div class="flex items-center justify-between mb-1">
+            <span class="text-slate-300 font-semibold">Background Blur</span>
+            <span id="overlay-blur-val" class="text-amber-400 font-bold">2px</span>
+          </div>
+          <input type="range" id="overlay-blur-slider" min="0" max="16" value="2" class="w-full">
+        </div>
+
+        <!-- Reset Button -->
+        <button type="button" id="btn-reset-bg" class="w-full py-2 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-300 font-medium text-xs transition-colors flex items-center justify-center gap-1.5">
+          <i class="fa-solid fa-rotate-left text-amber-400"></i>
+          <span>Reset to Default Ambience</span>
+        </button>
+      </div>
+
+      <!-- Pure Brand Hero: Strictly Brand Name, Short Tagline, and Buttons to Other Pages -->
+      <div class="max-w-4xl mx-auto text-center py-16 sm:py-24 z-10 flex flex-col items-center justify-center">
+        
+        <!-- Luxury Brand Crest Emblem -->
+        <div class="inline-flex items-center gap-2.5 px-4 py-1.5 rounded-full glass-panel border border-amber-500/30 text-amber-300 text-xs sm:text-sm font-semibold tracking-wider uppercase mb-8 shadow-xl animate-bounce" style="animation-duration: 3s;">
+          <i class="fa-solid fa-crown text-amber-400 text-xs"></i>
+          <span>SGIM Premium Real Estate & Insurance Advisory</span>
+        </div>
+
+        <!-- Brand Name -->
+        <h1 class="text-4xl sm:text-6xl md:text-7xl font-extrabold font-serif tracking-tight text-white mb-6 leading-tight drop-shadow-2xl">
+          PrimeShield <span class="gold-text">Group</span>
+        </h1>
+
+        <!-- Short Tagline -->
+        <p class="text-lg sm:text-2xl md:text-3xl text-slate-200 font-light max-w-2xl mx-auto mb-12 leading-relaxed drop-shadow-md">
+          Safeguarding Assets. Empowering Legacies. <br class="hidden sm:inline">
+          <span class="text-amber-300/90 font-normal">Excellence in Real Estate Acquisitions & Comprehensive Insurance.</span>
+        </p>
+
+        <!-- Navigation Buttons to Other Pages -->
+        <div class="w-full max-w-2xl grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-5">
+          
+          <a href="#about" data-nav-target="page-about" class="py-4 px-6 rounded-2xl glass-card hover:border-amber-400/80 text-white font-bold text-sm sm:text-base flex items-center justify-between group transition-all duration-300 shadow-xl hover:translate-y-[-2px]">
+            <div class="flex items-center gap-3">
+              <div class="w-10 h-10 rounded-xl bg-amber-500/20 text-amber-400 flex items-center justify-center group-hover:scale-110 transition-transform">
+                <i class="fa-solid fa-users-viewfinder"></i>
+              </div>
+              <div class="text-left">
+                <span class="block font-serif">About & Services</span>
+                <span class="block text-[11px] text-slate-400 font-normal font-sans">Founder Profile & Solutions</span>
+              </div>
+            </div>
+            <i class="fa-solid fa-arrow-right text-amber-400 group-hover:translate-x-1.5 transition-transform"></i>
+          </a>
+
+          <a href="#realestate" data-nav-target="page-realestate" class="py-4 px-6 rounded-2xl btn-gold text-slate-950 font-bold text-sm sm:text-base flex items-center justify-between group transition-all duration-300 shadow-xl hover:translate-y-[-2px]">
+            <div class="flex items-center gap-3">
+              <div class="w-10 h-10 rounded-xl bg-slate-950/20 text-slate-950 flex items-center justify-center group-hover:scale-110 transition-transform">
+                <i class="fa-solid fa-city"></i>
+              </div>
+              <div class="text-left">
+                <span class="block font-serif">Real Estate</span>
+                <span class="block text-[11px] text-slate-900/80 font-normal font-sans">SGIM Lands & Villas</span>
+              </div>
+            </div>
+            <i class="fa-solid fa-arrow-right text-slate-950 group-hover:translate-x-1.5 transition-transform"></i>
+          </a>
+
+          <a href="#insurance" data-nav-target="page-insurance" class="py-4 px-6 rounded-2xl glass-card hover:border-amber-400/80 text-white font-bold text-sm sm:text-base flex items-center justify-between group transition-all duration-300 shadow-xl hover:translate-y-[-2px]">
+            <div class="flex items-center gap-3">
+              <div class="w-10 h-10 rounded-xl bg-amber-500/20 text-amber-400 flex items-center justify-center group-hover:scale-110 transition-transform">
+                <i class="fa-solid fa-shield-halved"></i>
+              </div>
+              <div class="text-left">
+                <span class="block font-serif">Insurance Advisory</span>
+                <span class="block text-[11px] text-slate-400 font-normal font-sans">HDFC, TVS Galaxy & Central Bank</span>
+              </div>
+            </div>
+            <i class="fa-solid fa-arrow-right text-amber-400 group-hover:translate-x-1.5 transition-transform"></i>
+          </a>
+
+          <a href="#contact" data-nav-target="page-contact" class="py-4 px-6 rounded-2xl glass-card hover:border-amber-400/80 text-white font-bold text-sm sm:text-base flex items-center justify-between group transition-all duration-300 shadow-xl hover:translate-y-[-2px]">
+            <div class="flex items-center gap-3">
+              <div class="w-10 h-10 rounded-xl bg-amber-500/20 text-amber-400 flex items-center justify-center group-hover:scale-110 transition-transform">
+                <i class="fa-solid fa-phone-volume"></i>
+              </div>
+              <div class="text-left">
+                <span class="block font-serif">Contact Information</span>
+                <span class="block text-[11px] text-slate-400 font-normal font-sans">Direct Numbers & Locations</span>
+              </div>
+            </div>
+            <i class="fa-solid fa-arrow-right text-amber-400 group-hover:translate-x-1.5 transition-transform"></i>
+          </a>
+
+        </div>
+
+        <!-- Trust Credentials Strip -->
+        <div class="mt-14 flex flex-wrap items-center justify-center gap-6 sm:gap-10 text-xs text-slate-400 font-medium">
+          <span class="flex items-center gap-2">
+            <i class="fa-solid fa-certificate text-amber-400"></i> RERA & DTCP Verified
+          </span>
+          <span class="flex items-center gap-2">
+            <i class="fa-solid fa-handshake text-amber-400"></i> Trusted Banking Partners
+          </span>
+          <span class="flex items-center gap-2">
+            <i class="fa-solid fa-user-shield text-amber-400"></i> 100% Client Privacy
+          </span>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ========================================================
+         PAGE 2: ABOUT AND SERVICES
+         Founder: Teekaraman.P (photo placeholder, short bio section).
+         Services: Real Estate, Life Insurance, General Insurance,
+         Health Insurance, Industrial Health and Safety Insurance.
+         ======================================================== -->
+    <section id="page-about" class="page-view py-16 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto">
+      
+      <!-- Section Header -->
+      <div class="text-center max-w-3xl mx-auto mb-16">
+        <span class="inline-block px-3 py-1 rounded-full text-xs font-bold uppercase tracking-wider text-amber-400 bg-amber-500/10 border border-amber-500/30 mb-3">
+          Our Leadership & Capabilities
+        </span>
+        <h2 class="text-3xl sm:text-5xl font-bold font-serif text-white mb-4">
+          About <span class="gold-text">PrimeShield Group</span>
+        </h2>
+        <p class="text-sm sm:text-base text-slate-300 leading-relaxed">
+          Founded on unyielding integrity, precision market intelligence, and dedicated advisory, we bridge high-value real estate opportunities with institutional insurance protections.
+        </p>
+      </div>
+
+      <!-- Founder Section -->
+      <div class="glass-card rounded-3xl p-6 sm:p-10 lg:p-12 mb-20 border border-amber-500/30 gold-glow">
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 items-center">
+          
+          <!-- Founder Photo Placeholder / Portrait Badge -->
+          <div class="lg:col-span-5 flex flex-col items-center">
+            <div class="relative w-64 h-72 sm:w-72 sm:h-80 rounded-2xl overflow-hidden border-2 border-amber-400/50 shadow-2xl bg-gradient-to-b from-slate-800 to-slate-950 flex flex-col items-center justify-center text-center p-6 group">
+              <!-- Background Pattern -->
+              <div class="absolute inset-0 opacity-15 bg-[radial-gradient(#d4af37_1px,transparent_1px)] [background-size:16px_16px]"></div>
+              
+              <!-- Avatar Crest -->
+              <div class="w-28 h-28 rounded-full bg-gradient-to-br from-amber-300 via-amber-500 to-amber-700 p-1 mb-4 shadow-xl">
+                <div class="w-full h-full rounded-full bg-slate-950 flex items-center justify-center text-3xl font-bold font-serif text-amber-400">
+                  TP
+                </div>
+              </div>
+
+              <!-- Name & Title -->
+              <h3 class="text-xl font-bold text-white font-serif tracking-wider mb-1">
+                Teekaraman.P
+              </h3>
+              <p class="text-xs text-amber-400 font-semibold uppercase tracking-wider">
+                Founder & Managing Director
+              </p>
+              <p class="text-[11px] text-slate-400 mt-2">
+                PrimeShield Group
+              </p>
+
+              <!-- Verified Badge -->
+              <div class="mt-4 px-3 py-1 rounded-full bg-amber-500/10 border border-amber-500/30 text-[10px] text-amber-300 font-bold flex items-center gap-1.5">
+                <i class="fa-solid fa-circle-check text-amber-400"></i> Principal Advisory Leader
+              </div>
+            </div>
+
+            <!-- Quick Contact Buttons for Founder -->
+            <div class="mt-4 flex items-center gap-3">
+              <a href="tel:9962699649" class="px-4 py-2 rounded-xl bg-slate-800 hover:bg-slate-700 border border-slate-700 text-xs font-semibold text-slate-200 flex items-center gap-2 transition-colors">
+                <i class="fa-solid fa-phone text-amber-400"></i> Direct Call
+              </a>
+              <a href="https://wa.me/919962699649" target="_blank" class="px-4 py-2 rounded-xl bg-emerald-700/40 hover:bg-emerald-600/60 border border-emerald-500/40 text-xs font-semibold text-emerald-300 flex items-center gap-2 transition-colors">
+                <i class="fa-brands fa-whatsapp text-emerald-400"></i> Direct WhatsApp
+              </a>
+            </div>
+          </div>
+
+          <!-- Founder Bio Content -->
+          <div class="lg:col-span-7 space-y-5">
+            <div class="inline-flex items-center gap-2 px-3 py-1 rounded-md bg-amber-500/10 text-amber-400 text-xs font-bold uppercase tracking-wider">
+              <i class="fa-solid fa-quote-left text-xs"></i> Founder's Bio & Vision
+            </div>
+
+            <h3 class="text-2xl sm:text-3xl font-bold font-serif text-white">
+              Guiding Wealth Preservation & Secure Land Ownership
+            </h3>
+
+            <p class="text-sm sm:text-base text-slate-300 leading-relaxed">
+              With a distinguished career rooted in real estate acquisition strategy, DTCP legal validation, and institutional risk mitigation, <strong class="text-amber-300">Teekaraman.P</strong> established PrimeShield Group to be Tamil Nadu's gold-standard advisory firm for clients seeking safe, high-growth property investments and bulletproof insurance protection.
+            </p>
+
+            <p class="text-sm text-slate-400 leading-relaxed">
+              His stewardship has guided hundreds of families and enterprises in securing legally verified land in the thriving SGIM corridor (Chola's Empire, Temple Town, and Vateka), while curating custom insurance coverage through premier institutions like HDFC, TVS Galaxy Health, and Central Bank of India.
+            </p>
+
+            <!-- Value Pillars -->
+            <div class="grid grid-cols-1 sm:grid-cols-3 gap-4 pt-4 border-t border-slate-800">
+              <div class="p-3.5 rounded-xl bg-slate-900/60 border border-slate-800">
+                <p class="text-amber-400 font-bold text-lg font-serif">100%</p>
+                <p class="text-xs text-slate-300 font-semibold">Title Verification</p>
+                <p class="text-[11px] text-slate-400 mt-1">Zero legal disputes guarantee</p>
+              </div>
+              <div class="p-3.5 rounded-xl bg-slate-900/60 border border-slate-800">
+                <p class="text-amber-400 font-bold text-lg font-serif">Top 3</p>
+                <p class="text-xs text-slate-300 font-semibold">Insurers Alignment</p>
+                <p class="text-[11px] text-slate-400 mt-1">Direct institutional backing</p>
+              </div>
+              <div class="p-3.5 rounded-xl bg-slate-900/60 border border-slate-800">
+                <p class="text-amber-400 font-bold text-lg font-serif">SGIM</p>
+                <p class="text-xs text-slate-300 font-semibold">Corridor Focus</p>
+                <p class="text-[11px] text-slate-400 mt-1">Prime high-growth developments</p>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+
+      <!-- Services Section Header -->
+      <div class="text-center max-w-2xl mx-auto mb-12">
+        <span class="inline-block px-3 py-1 rounded-full text-xs font-bold uppercase tracking-wider text-amber-400 bg-amber-500/10 border border-amber-500/30 mb-3">
+          Advisory Spectrum
+        </span>
+        <h3 class="text-2xl sm:text-4xl font-bold font-serif text-white mb-2">
+          Comprehensive Services
+        </h3>
+        <p class="text-xs sm:text-sm text-slate-400">
+          5 specialized advisory verticals curated to safeguard your capital and assets.
+        </p>
+      </div>
+
+      <!-- 5 Service Cards Grid -->
+      <div id="services-grid-container" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">
+        <!-- Rendered dynamically by App.js from SERVICES_DATA -->
+      </div>
+
+    </section>
+
+    <!-- ========================================================
+         PAGE 3: REAL ESTATE
+         - SGIM Projects: Chola's Empire, Temple Town, Vateka (lands & villas)
+         - Enquiry Form: Property Type (Land/Villa radio), Project dropdown,
+           Budget slider (95L to 1.5Cr), Sqft dropdown (1200 to 3000+),
+           User Name, Mobile (10-digit), Email, Location, Visiting date & time slot.
+         - Villa Listings Section (Admin managed, unlimited):
+           Area, sqft, up to 5 images (carousel/gallery with lightbox),
+           "Contact on WhatsApp" button with pre-filled message.
+         ======================================================== -->
+    <section id="page-realestate" class="page-view py-16 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto">
+      
+      <!-- Page Hero -->
+      <div class="text-center max-w-3xl mx-auto mb-16">
+        <span class="inline-block px-3 py-1 rounded-full text-xs font-bold uppercase tracking-wider text-amber-400 bg-amber-500/10 border border-amber-500/30 mb-3">
+          SGIM Regional Growth Hub
+        </span>
+        <h2 class="text-3xl sm:text-5xl font-bold font-serif text-white mb-4">
+          Real Estate <span class="gold-text">Acquisitions</span>
+        </h2>
+        <p class="text-sm sm:text-base text-slate-300 leading-relaxed">
+          Explore sovereign gated communities, prime investment lands, and luxury custom villas in SGIM’s most prestigious developments: Chola's Empire, Temple Town, and Vateka.
+        </p>
+      </div>
+
+      <!-- PART 1: Available Projects in SGIM -->
+      <div class="mb-20">
+        <div class="flex items-center justify-between mb-8 pb-4 border-b border-slate-800">
+          <div>
+            <h3 class="text-2xl font-bold text-white font-serif">Approved SGIM Projects</h3>
+            <p class="text-xs text-slate-400 mt-1">Ready-to-register villa plots and bespoke architect-crafted residences.</p>
+          </div>
+          <span class="hidden sm:inline-block px-3 py-1 rounded-full bg-slate-900 text-xs font-semibold text-amber-400 border border-slate-800">
+            3 Flagship Developments
+          </span>
+        </div>
+
+        <div id="sgim-projects-container" class="grid grid-cols-1 md:grid-cols-3 gap-6 sm:gap-8">
+          <!-- Rendered dynamically by RealEstateModule from SGIM_PROJECTS -->
+        </div>
+      </div>
+
+      <!-- PART 2: Real Estate Enquiry & Customization Form -->
+      <div id="realestate-enquiry-section" class="mb-20 glass-card rounded-3xl p-6 sm:p-10 lg:p-12 border border-amber-500/30 shadow-2xl relative">
+        <div class="max-w-3xl mx-auto">
+          
+          <div class="text-center mb-8">
+            <span class="inline-block px-3 py-1 rounded-full text-xs font-bold uppercase tracking-wider text-amber-400 bg-amber-500/10 border border-amber-500/30 mb-2">
+              Bespoke Site Visit & Quote
+            </span>
+            <h3 class="text-2xl sm:text-3xl font-bold text-white font-serif">
+              Real Estate Enquiry & Customization Form
+            </h3>
+            <p class="text-xs sm:text-sm text-slate-300 mt-1">
+              Select your specifications to schedule an assisted site visit with Founder Teekaraman.P.
+            </p>
+          </div>
+
+          <!-- Error Alert Banner -->
+          <div id="re-form-error" class="hidden mb-6 p-4 rounded-xl bg-rose-500/20 border border-rose-500/40 text-rose-300 text-xs font-semibold flex items-center gap-2">
+          </div>
+
+          <form id="realestate-enquiry-form" class="space-y-6">
+            
+            <!-- Row 1: Property Type (Radio Buttons) & Project (Dropdown) -->
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+              
+              <!-- Property Type Radios -->
+              <div>
+                <label class="block text-xs font-bold text-amber-300 uppercase tracking-wider mb-2">
+                  1. Property Type <span class="text-rose-400">*</span>
+                </label>
+                <div class="grid grid-cols-2 gap-3">
+                  <label class="flex items-center justify-center gap-2.5 p-3 rounded-xl border border-slate-700 bg-slate-900/40 hover:border-amber-400 cursor-pointer has-[:checked]:border-amber-400 has-[:checked]:bg-amber-500/15 transition-all">
+                    <input type="radio" name="property_type" value="Land" checked class="accent-amber-400">
+                    <span class="text-sm font-semibold text-white">Land / Plot</span>
+                  </label>
+                  <label class="flex items-center justify-center gap-2.5 p-3 rounded-xl border border-slate-700 bg-slate-900/40 hover:border-amber-400 cursor-pointer has-[:checked]:border-amber-400 has-[:checked]:bg-amber-500/15 transition-all">
+                    <input type="radio" name="property_type" value="Villa" class="accent-amber-400">
+                    <span class="text-sm font-semibold text-white">Luxury Villa</span>
+                  </label>
+                </div>
+              </div>
+
+              <!-- Project Dropdown -->
+              <div>
+                <label for="re-project-select" class="block text-xs font-bold text-amber-300 uppercase tracking-wider mb-2">
+                  2. Select Project <span class="text-rose-400">*</span>
+                </label>
+                <select id="re-project-select" required class="w-full p-3 rounded-xl bg-slate-900 border border-slate-700 text-white text-sm gold-focus transition-colors">
+                  <option value="Chola's Empire">Chola's Empire (Grand Heritage Living)</option>
+                  <option value="Temple Town">Temple Town (Pure Vaastu Community)</option>
+                  <option value="Vateka">Vateka (Eco-Smart Luxury Township)</option>
+                </select>
+              </div>
+
+            </div>
+
+            <!-- Row 2: Budget Range Slider & Square Feet Dropdown -->
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6 p-4 rounded-2xl bg-slate-900/50 border border-slate-800">
+              
+              <!-- Budget Range Slider -->
+              <div>
+                <div class="flex items-center justify-between mb-2">
+                  <label for="re-budget-slider" class="text-xs font-bold text-amber-300 uppercase tracking-wider">
+                    3. Budget Range (₹95L - ₹1.5Cr)
+                  </label>
+                  <span id="re-budget-display" class="text-sm font-extrabold text-amber-400 bg-slate-950 px-2.5 py-0.5 rounded-lg border border-amber-500/30">
+                    ₹1.15 Crores
+                  </span>
+                </div>
+                <input type="range" id="re-budget-slider" min="95" max="150" value="115" step="5" class="w-full">
+                <div class="flex justify-between text-[10px] text-slate-400 mt-1">
+                  <span>₹95 Lakhs</span>
+                  <span>₹1.20 Crores</span>
+                  <span>₹1.50 Crores</span>
+                </div>
+              </div>
+
+              <!-- Square Feet Dropdown -->
+              <div>
+                <label for="re-sqft-select" class="block text-xs font-bold text-amber-300 uppercase tracking-wider mb-2">
+                  4. Square Feet Requirement <span class="text-rose-400">*</span>
+                </label>
+                <select id="re-sqft-select" required class="w-full p-3 rounded-xl bg-slate-900 border border-slate-700 text-white text-sm gold-focus transition-colors">
+                  <option value="1200 sq.ft">1200 sq.ft (Ideal Compact Villa/Plot)</option>
+                  <option value="1500 sq.ft" selected>1500 sq.ft (Standard 3 BHK)</option>
+                  <option value="1800 sq.ft">1800 sq.ft (Spacious 3/4 BHK)</option>
+                  <option value="2400 sq.ft">2400 sq.ft (Grand 4 BHK Duplex)</option>
+                  <option value="3000+ sq.ft">3000 sq.ft and above (Imperial Estate)</option>
+                </select>
+              </div>
+
+            </div>
+
+            <!-- Row 3: User Details (Name, Mobile, Email, Location) -->
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+              
+              <div>
+                <label for="re-user-name" class="block text-xs font-semibold text-slate-300 mb-1.5">
+                  Full Name <span class="text-rose-400">*</span>
+                </label>
+                <div class="relative">
+                  <span class="absolute inset-y-0 left-0 pl-3.5 flex items-center text-slate-400 pointer-events-none">
+                    <i class="fa-solid fa-user text-xs"></i>
+                  </span>
+                  <input type="text" id="re-user-name" required placeholder="e.g. Ramesh Kumar" class="w-full pl-10 pr-4 py-2.5 rounded-xl bg-slate-900 border border-slate-700 text-white text-sm gold-focus">
+                </div>
+              </div>
+
+              <div>
+                <label for="re-user-mobile" class="block text-xs font-semibold text-slate-300 mb-1.5">
+                  Mobile Number (10 Digits) <span class="text-rose-400">*</span>
+                </label>
+                <div class="relative">
+                  <span class="absolute inset-y-0 left-0 pl-3.5 flex items-center text-amber-400 font-bold text-xs pointer-events-none">
+                    +91
+                  </span>
+                  <input type="tel" id="re-user-mobile" required maxlength="10" placeholder="9876543210" class="w-full pl-12 pr-4 py-2.5 rounded-xl bg-slate-900 border border-slate-700 text-white text-sm gold-focus">
+                </div>
+              </div>
+
+              <div>
+                <label for="re-user-email" class="block text-xs font-semibold text-slate-300 mb-1.5">
+                  Email ID <span class="text-rose-400">*</span>
+                </label>
+                <div class="relative">
+                  <span class="absolute inset-y-0 left-0 pl-3.5 flex items-center text-slate-400 pointer-events-none">
+                    <i class="fa-solid fa-envelope text-xs"></i>
+                  </span>
+                  <input type="email" id="re-user-email" required placeholder="name@example.com" class="w-full pl-10 pr-4 py-2.5 rounded-xl bg-slate-900 border border-slate-700 text-white text-sm gold-focus">
+                </div>
+              </div>
+
+              <div>
+                <label for="re-user-location" class="block text-xs font-semibold text-slate-300 mb-1.5">
+                  Your Current Location / City <span class="text-rose-400">*</span>
+                </label>
+                <div class="relative">
+                  <span class="absolute inset-y-0 left-0 pl-3.5 flex items-center text-slate-400 pointer-events-none">
+                    <i class="fa-solid fa-location-dot text-xs"></i>
+                  </span>
+                  <input type="text" id="re-user-location" required placeholder="e.g. Chennai, SGIM, Bangalore" class="w-full pl-10 pr-4 py-2.5 rounded-xl bg-slate-900 border border-slate-700 text-white text-sm gold-focus">
+                </div>
+              </div>
+
+            </div>
+
+            <!-- Row 4: Visiting On (Date Picker & Time Slot Picker) -->
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 pt-2">
+              
+              <div>
+                <label for="re-visit-date" class="block text-xs font-semibold text-slate-300 mb-1.5">
+                  Visiting On (Date) <span class="text-rose-400">*</span>
+                </label>
+                <div class="relative">
+                  <input type="date" id="re-visit-date" required class="w-full px-4 py-2.5 rounded-xl bg-slate-900 border border-slate-700 text-white text-sm gold-focus">
+                </div>
+              </div>
+
+              <div>
+                <label for="re-visit-time" class="block text-xs font-semibold text-slate-300 mb-1.5">
+                  Preferred Time Slot <span class="text-rose-400">*</span>
+                </label>
+                <select id="re-visit-time" required class="w-full px-4 py-2.5 rounded-xl bg-slate-900 border border-slate-700 text-white text-sm gold-focus">
+                  <option value="Morning (09:00 AM - 12:00 PM)">Morning (09:00 AM - 12:00 PM)</option>
+                  <option value="Afternoon (12:00 PM - 03:00 PM)">Afternoon (12:00 PM - 03:00 PM)</option>
+                  <option value="Evening (03:00 PM - 06:00 PM)" selected>Evening (03:00 PM - 06:00 PM)</option>
+                </select>
+              </div>
+
+            </div>
+
+            <!-- Submit Button -->
+            <div class="pt-4">
+              <button type="submit" class="w-full py-4 rounded-xl btn-gold text-slate-950 font-bold text-sm tracking-wider uppercase flex items-center justify-center gap-2">
+                <i class="fa-solid fa-calendar-check text-base"></i>
+                <span>Submit Real Estate Enquiry & Schedule Visit</span>
+              </button>
+              <p class="text-[11px] text-center text-slate-400 mt-2">
+                No past dates allowed. Your enquiry will be immediately recorded and forwarded to advisory director Teekaraman.P.
+              </p>
+            </div>
+
+          </form>
+
+        </div>
+      </div>
+
+      <!-- PART 3: Villa Listings Section (Admin-managed, Unlimited) -->
+      <div>
+        <div class="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4 mb-8 pb-4 border-b border-slate-800">
+          <div>
+            <div class="flex items-center gap-3">
+              <h3 class="text-2xl font-bold text-white font-serif">Featured Villa Residences</h3>
+              <span id="villa-count-badge" class="px-2.5 py-0.5 rounded-full text-[11px] font-bold bg-amber-500/10 text-amber-300 border border-amber-500/30">
+                Exclusive Listings
+              </span>
+            </div>
+            <p class="text-xs text-slate-400 mt-1">
+              Admin-managed luxury villas with multi-photo galleries, area specifications, and direct WhatsApp contact.
+            </p>
+          </div>
+
+          <!-- Admin Quick Action Button -->
+          <button type="button" class="btn-open-admin-portal px-4 py-2 rounded-xl bg-slate-900 hover:bg-slate-800 border border-amber-500/40 text-amber-300 text-xs font-semibold flex items-center gap-2 transition-all">
+            <i class="fa-solid fa-plus-circle text-amber-400"></i>
+            <span>Manage / Add Villas (Admin)</span>
+          </button>
+        </div>
+
+        <!-- Villa Listings Grid -->
+        <div id="villa-listings-container" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8">
+          <!-- Rendered dynamically by RealEstateModule from currentVillas -->
+        </div>
+
+      </div>
+
+    </section>
+
+    <!-- ========================================================
+         PAGE 4: INSURANCE
+         - Partner Insurers: HDFC, TVS Galaxy Health Insurance,
+           Central Bank of India (logo cards, selectable).
+         - Enquiry Form:
+           Insurer: HDFC / TVS Galaxy / Central Bank of India
+           Insurance type: Life, Health, General, Industrial Health, Industrial Safety
+           User Name, Mobile, Income Source, Work/Profession, Location, Email ID
+           Visiting on: date picker & time slot picker
+           Submit button with validation & success message.
+         ======================================================== -->
+    <section id="page-insurance" class="page-view py-16 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto">
+      
+      <!-- Section Header -->
+      <div class="text-center max-w-3xl mx-auto mb-16">
+        <span class="inline-block px-3 py-1 rounded-full text-xs font-bold uppercase tracking-wider text-amber-400 bg-amber-500/10 border border-amber-500/30 mb-3">
+          Institutional Security & Risk Mitigation
+        </span>
+        <h2 class="text-3xl sm:text-5xl font-bold font-serif text-white mb-4">
+          Insurance <span class="gold-text">Advisory</span>
+        </h2>
+        <p class="text-sm sm:text-base text-slate-300 leading-relaxed">
+          Partnering with India’s leading institutions to provide institutional-grade protection across Life, Health, General, and specialized Industrial Safety covers.
+        </p>
+      </div>
+
+      <!-- Partner Insurers (Selectable Cards) -->
+      <div class="mb-16">
+        <div class="flex items-center justify-between mb-6 pb-3 border-b border-slate-800">
+          <div>
+            <h3 class="text-xl sm:text-2xl font-bold text-white font-serif">Authorized Partner Insurers</h3>
+            <p class="text-xs text-slate-400 mt-1">Click any insurer card below to automatically select them in the enquiry form.</p>
+          </div>
+          <span class="hidden sm:inline-block px-3 py-1 rounded-full bg-slate-900 text-xs font-semibold text-amber-400 border border-slate-800">
+            Selectable Partners
+          </span>
+        </div>
+
+        <div id="partner-insurers-container" class="grid grid-cols-1 md:grid-cols-3 gap-6">
+          <!-- Rendered dynamically by InsuranceModule from PARTNER_INSURERS -->
+        </div>
+      </div>
+
+      <!-- Insurance Enquiry Form -->
+      <div id="insurance-enquiry-section" class="glass-card rounded-3xl p-6 sm:p-10 lg:p-12 border border-amber-500/30 shadow-2xl relative">
+        <div class="max-w-3xl mx-auto">
+          
+          <div class="text-center mb-8">
+            <span class="inline-block px-3 py-1 rounded-full text-xs font-bold uppercase tracking-wider text-amber-400 bg-amber-500/10 border border-amber-500/30 mb-2">
+              Confidential Advisory Request
+            </span>
+            <h3 class="text-2xl sm:text-3xl font-bold text-white font-serif">
+              Insurance Consultation & Quote Form
+            </h3>
+            <p class="text-xs sm:text-sm text-slate-300 mt-1">
+              Fill in your professional & risk profile for a personalized policy comparison and claim strategy.
+            </p>
+          </div>
+
+          <!-- Error Alert Banner -->
+          <div id="ins-form-error" class="hidden mb-6 p-4 rounded-xl bg-rose-500/20 border border-rose-500/40 text-rose-300 text-xs font-semibold flex items-center gap-2">
+          </div>
+
+          <form id="insurance-enquiry-form" class="space-y-6">
+            
+            <!-- Row 1: Insurer Choice & Insurance Type -->
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+              
+              <div>
+                <label for="ins-partner-select" class="block text-xs font-bold text-amber-300 uppercase tracking-wider mb-2">
+                  1. Partner Insurer <span class="text-rose-400">*</span>
+                </label>
+                <select id="ins-partner-select" required class="w-full p-3 rounded-xl bg-slate-900 border border-slate-700 text-white text-sm gold-focus">
+                  <option value="HDFC">HDFC (Life & General)</option>
+                  <option value="TVS Galaxy Health Insurance">TVS Galaxy Health Insurance</option>
+                  <option value="Central Bank of India">Central Bank of India (Bancassurance)</option>
+                </select>
+              </div>
+
+              <div>
+                <label for="ins-type-select" class="block text-xs font-bold text-amber-300 uppercase tracking-wider mb-2">
+                  2. Insurance Type <span class="text-rose-400">*</span>
+                </label>
+                <select id="ins-type-select" required class="w-full p-3 rounded-xl bg-slate-900 border border-slate-700 text-white text-sm gold-focus">
+                  <option value="Life">Life Insurance (Term & Wealth Protection)</option>
+                  <option value="Health" selected>Health Insurance (Family & Individual Comprehensive)</option>
+                  <option value="General">General Insurance (Motor, Property & Asset)</option>
+                  <option value="Industrial Health">Industrial Health Insurance (Workforce Medical)</option>
+                  <option value="Industrial Safety">Industrial Safety Insurance (WC Act & Plant Liability)</option>
+                </select>
+              </div>
+
+            </div>
+
+            <!-- Row 2: User Contact (Name, Mobile, Email, Location) -->
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+              
+              <div>
+                <label for="ins-user-name" class="block text-xs font-semibold text-slate-300 mb-1.5">
+                  Full Name <span class="text-rose-400">*</span>
+                </label>
+                <div class="relative">
+                  <span class="absolute inset-y-0 left-0 pl-3.5 flex items-center text-slate-400 pointer-events-none">
+                    <i class="fa-solid fa-user text-xs"></i>
+                  </span>
+                  <input type="text" id="ins-user-name" required placeholder="e.g. S. Venkatesh" class="w-full pl-10 pr-4 py-2.5 rounded-xl bg-slate-900 border border-slate-700 text-white text-sm gold-focus">
+                </div>
+              </div>
+
+              <div>
+                <label for="ins-user-mobile" class="block text-xs font-semibold text-slate-300 mb-1.5">
+                  Mobile Number (10 Digits) <span class="text-rose-400">*</span>
+                </label>
+                <div class="relative">
+                  <span class="absolute inset-y-0 left-0 pl-3.5 flex items-center text-amber-400 font-bold text-xs pointer-events-none">
+                    +91
+                  </span>
+                  <input type="tel" id="ins-user-mobile" required maxlength="10" placeholder="9876543210" class="w-full pl-12 pr-4 py-2.5 rounded-xl bg-slate-900 border border-slate-700 text-white text-sm gold-focus">
+                </div>
+              </div>
+
+              <div>
+                <label for="ins-user-email" class="block text-xs font-semibold text-slate-300 mb-1.5">
+                  Email ID <span class="text-rose-400">*</span>
+                </label>
+                <div class="relative">
+                  <span class="absolute inset-y-0 left-0 pl-3.5 flex items-center text-slate-400 pointer-events-none">
+                    <i class="fa-solid fa-envelope text-xs"></i>
+                  </span>
+                  <input type="email" id="ins-user-email" required placeholder="venkatesh@gmail.com" class="w-full pl-10 pr-4 py-2.5 rounded-xl bg-slate-900 border border-slate-700 text-white text-sm gold-focus">
+                </div>
+              </div>
+
+              <div>
+                <label for="ins-user-location" class="block text-xs font-semibold text-slate-300 mb-1.5">
+                  Location / City <span class="text-rose-400">*</span>
+                </label>
+                <div class="relative">
+                  <span class="absolute inset-y-0 left-0 pl-3.5 flex items-center text-slate-400 pointer-events-none">
+                    <i class="fa-solid fa-location-dot text-xs"></i>
+                  </span>
+                  <input type="text" id="ins-user-location" required placeholder="e.g. SGIM, Vellore, Chennai" class="w-full pl-10 pr-4 py-2.5 rounded-xl bg-slate-900 border border-slate-700 text-white text-sm gold-focus">
+                </div>
+              </div>
+
+            </div>
+
+            <!-- Row 3: Income Source & Work/Profession -->
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 p-4 rounded-2xl bg-slate-900/50 border border-slate-800">
+              
+              <div>
+                <label for="ins-income-source" class="block text-xs font-semibold text-slate-300 mb-1.5">
+                  Primary Income Source <span class="text-rose-400">*</span>
+                </label>
+                <select id="ins-income-source" required class="w-full p-2.5 rounded-xl bg-slate-900 border border-slate-700 text-white text-sm gold-focus">
+                  <option value="Salaried (Corporate / Govt)">Salaried (Corporate / Govt)</option>
+                  <option value="Business Owner / Entrepreneur" selected>Business Owner / Entrepreneur</option>
+                  <option value="Industrialist / Factory Owner">Industrialist / Factory Owner</option>
+                  <option value="Self-Employed Professional">Self-Employed Professional (Doctor, CA, Lawyer)</option>
+                  <option value="Agriculture & Real Estate">Agriculture & Real Estate</option>
+                </select>
+              </div>
+
+              <div>
+                <label for="ins-work-profession" class="block text-xs font-semibold text-slate-300 mb-1.5">
+                  Work / Profession / Industry <span class="text-rose-400">*</span>
+                </label>
+                <div class="relative">
+                  <span class="absolute inset-y-0 left-0 pl-3.5 flex items-center text-slate-400 pointer-events-none">
+                    <i class="fa-solid fa-briefcase text-xs"></i>
+                  </span>
+                  <input type="text" id="ins-work-profession" required placeholder="e.g. Manufacturing Plant Director" class="w-full pl-10 pr-4 py-2.5 rounded-xl bg-slate-900 border border-slate-700 text-white text-sm gold-focus">
+                </div>
+              </div>
+
+            </div>
+
+            <!-- Row 4: Visiting on (Date Picker & Time Slot Picker) -->
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+              
+              <div>
+                <label for="ins-visit-date" class="block text-xs font-semibold text-slate-300 mb-1.5">
+                  Consultation Visiting Date <span class="text-rose-400">*</span>
+                </label>
+                <input type="date" id="ins-visit-date" required class="w-full px-4 py-2.5 rounded-xl bg-slate-900 border border-slate-700 text-white text-sm gold-focus">
+              </div>
+
+              <div>
+                <label for="ins-visit-time" class="block text-xs font-semibold text-slate-300 mb-1.5">
+                  Preferred Time Slot <span class="text-rose-400">*</span>
+                </label>
+                <select id="ins-visit-time" required class="w-full px-4 py-2.5 rounded-xl bg-slate-900 border border-slate-700 text-white text-sm gold-focus">
+                  <option value="Morning (10:00 AM - 01:00 PM)">Morning (10:00 AM - 01:00 PM)</option>
+                  <option value="Afternoon (02:00 PM - 05:00 PM)" selected>Afternoon (02:00 PM - 05:00 PM)</option>
+                  <option value="Evening (05:00 PM - 07:30 PM)">Evening (05:00 PM - 07:30 PM)</option>
+                </select>
+              </div>
+
+            </div>
+
+            <!-- Submit Button -->
+            <div class="pt-4">
+              <button type="submit" class="w-full py-4 rounded-xl btn-gold text-slate-950 font-bold text-sm tracking-wider uppercase flex items-center justify-center gap-2">
+                <i class="fa-solid fa-shield-check text-base"></i>
+                <span>Submit Insurance Advisory Enquiry</span>
+              </button>
+              <p class="text-[11px] text-center text-slate-400 mt-2">
+                Your data is held strictly confidential and shared only with certified advisory officers.
+              </p>
+            </div>
+
+          </form>
+
+        </div>
+      </div>
+
+    </section>
+
+    <!-- ========================================================
+         PAGE 5: CONTACT / MORE INFORMATION
+         Name: Teekaraman.P
+         Contact numbers: 9962699649, 7904495355 (tap-to-call)
+         WhatsApp: 9962699649, 8148603963 (click-to-chat)
+         Map placeholder & footer with quick links.
+         ======================================================== -->
+    <section id="page-contact" class="page-view py-16 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto">
+      
+      <!-- Section Header -->
+      <div class="text-center max-w-3xl mx-auto mb-16">
+        <span class="inline-block px-3 py-1 rounded-full text-xs font-bold uppercase tracking-wider text-amber-400 bg-amber-500/10 border border-amber-500/30 mb-3">
+          Direct Advisory & Support
+        </span>
+        <h2 class="text-3xl sm:text-5xl font-bold font-serif text-white mb-4">
+          Contact <span class="gold-text">PrimeShield Group</span>
+        </h2>
+        <p class="text-sm sm:text-base text-slate-300 leading-relaxed">
+          Connect directly with Founder Teekaraman.P for confidential real estate negotiations, site visits, and tailored insurance consultations.
+        </p>
+      </div>
+
+      <!-- Contact Info Cards Grid -->
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6 sm:gap-8 mb-16">
+        
+        <!-- Card 1: Founder Identity & Office -->
+        <div class="glass-card rounded-2xl p-6 sm:p-8 flex flex-col justify-between border border-amber-500/30">
+          <div>
+            <div class="w-12 h-12 rounded-xl bg-amber-500/20 text-amber-400 flex items-center justify-center text-xl mb-4">
+              <i class="fa-solid fa-user-tie"></i>
+            </div>
+            <h3 class="text-lg font-bold text-white font-serif mb-1">Founder & Advisory Lead</h3>
+            <p class="text-sm font-bold text-amber-400 mb-3">Teekaraman.P</p>
+            <p class="text-xs text-slate-300 leading-relaxed mb-4">
+              Managing Director, PrimeShield Group. Guiding property acquisitions, title checks, and institutional risk management across Tamil Nadu.
+            </p>
+          </div>
+          <div class="pt-4 border-t border-slate-700/60">
+            <span class="text-[11px] text-slate-400 flex items-center gap-1.5">
+              <i class="fa-solid fa-location-dot text-amber-400"></i>
+              <span>SGIM Advisory Hub, Tamil Nadu</span>
+            </span>
+          </div>
+        </div>
+
+        <!-- Card 2: Tap-to-Call Contact Numbers -->
+        <div class="glass-card rounded-2xl p-6 sm:p-8 flex flex-col justify-between border border-amber-500/30">
+          <div>
+            <div class="w-12 h-12 rounded-xl bg-amber-500/20 text-amber-400 flex items-center justify-center text-xl mb-4">
+              <i class="fa-solid fa-phone-volume"></i>
+            </div>
+            <h3 class="text-lg font-bold text-white font-serif mb-1">Direct Calling Lines</h3>
+            <p class="text-xs text-slate-400 mb-4">Tap any number below to call instantly:</p>
+            
+            <div class="space-y-3">
+              <a href="tel:9962699649" class="p-3 rounded-xl bg-slate-900 hover:bg-slate-800 border border-slate-700 hover:border-amber-400 text-white font-bold text-sm flex items-center justify-between transition-all group">
+                <div class="flex items-center gap-3">
+                  <i class="fa-solid fa-phone text-amber-400 text-xs"></i>
+                  <span>+91 99626 99649</span>
+                </div>
+                <span class="text-[11px] text-amber-300 font-semibold group-hover:translate-x-1 transition-transform">Call Now &rarr;</span>
+              </a>
+
+              <a href="tel:7904495355" class="p-3 rounded-xl bg-slate-900 hover:bg-slate-800 border border-slate-700 hover:border-amber-400 text-white font-bold text-sm flex items-center justify-between transition-all group">
+                <div class="flex items-center gap-3">
+                  <i class="fa-solid fa-phone text-amber-400 text-xs"></i>
+                  <span>+91 79044 95355</span>
+                </div>
+                <span class="text-[11px] text-amber-300 font-semibold group-hover:translate-x-1 transition-transform">Call Now &rarr;</span>
+              </a>
+            </div>
+          </div>
+
+          <div class="pt-4 border-t border-slate-700/60 mt-4">
+            <span class="text-[11px] text-slate-400 flex items-center gap-1.5">
+              <i class="fa-solid fa-clock text-amber-400"></i>
+              <span>Available 9:00 AM - 8:30 PM (Mon - Sun)</span>
+            </span>
+          </div>
+        </div>
+
+        <!-- Card 3: WhatsApp Click-to-Chat Buttons -->
+        <div class="glass-card rounded-2xl p-6 sm:p-8 flex flex-col justify-between border border-emerald-500/30">
+          <div>
+            <div class="w-12 h-12 rounded-xl bg-emerald-500/20 text-emerald-400 flex items-center justify-center text-xl mb-4">
+              <i class="fa-brands fa-whatsapp"></i>
+            </div>
+            <h3 class="text-lg font-bold text-white font-serif mb-1">WhatsApp Fast Chat</h3>
+            <p class="text-xs text-slate-400 mb-4">Click below to start a chat with pre-configured advisory routing:</p>
+
+            <div class="space-y-3">
+              <a href="https://wa.me/919962699649?text=Hello%20PrimeShield%20Group%2C%20I%20would%20like%20to%20enquire%20about%20your%20services." target="_blank" rel="noopener noreferrer" class="p-3 rounded-xl bg-emerald-950/40 hover:bg-emerald-900/50 border border-emerald-500/40 text-emerald-200 font-bold text-sm flex items-center justify-between transition-all group">
+                <div class="flex items-center gap-3">
+                  <i class="fa-brands fa-whatsapp text-emerald-400 text-base"></i>
+                  <span>+91 99626 99649</span>
+                </div>
+                <span class="text-[11px] text-emerald-400 font-semibold group-hover:translate-x-1 transition-transform">Chat &rarr;</span>
+              </a>
+
+              <a href="https://wa.me/918148603963?text=Hello%20PrimeShield%20Group%2C%20I%20would%20like%20to%20enquire%20about%20your%20services." target="_blank" rel="noopener noreferrer" class="p-3 rounded-xl bg-emerald-950/40 hover:bg-emerald-900/50 border border-emerald-500/40 text-emerald-200 font-bold text-sm flex items-center justify-between transition-all group">
+                <div class="flex items-center gap-3">
+                  <i class="fa-brands fa-whatsapp text-emerald-400 text-base"></i>
+                  <span>+91 81486 03963</span>
+                </div>
+                <span class="text-[11px] text-emerald-400 font-semibold group-hover:translate-x-1 transition-transform">Chat &rarr;</span>
+              </a>
+            </div>
+          </div>
+
+          <div class="pt-4 border-t border-slate-700/60 mt-4">
+            <span class="text-[11px] text-emerald-400 flex items-center gap-1.5">
+              <i class="fa-solid fa-bolt text-emerald-400"></i>
+              <span>Instant Response within 15 Minutes</span>
+            </span>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Interactive Map Section -->
+      <div class="mb-16">
+        <div class="flex items-center justify-between mb-4">
+          <div>
+            <h3 class="text-xl sm:text-2xl font-bold text-white font-serif">SGIM Location & Territory Map</h3>
+            <p class="text-xs text-slate-400">Interactive overview of our central office and development projects in the SGIM corridor.</p>
+          </div>
+        </div>
+
+        <!-- Map Container -->
+        <div id="contact-interactive-map"></div>
+      </div>
+
+      <!-- FAQ Section Accordion -->
+      <div class="glass-card rounded-2xl p-6 sm:p-8 border border-slate-800">
+        <h3 class="text-xl font-bold text-white font-serif mb-6 flex items-center gap-2">
+          <i class="fa-solid fa-circle-question text-amber-400"></i>
+          <span>Frequently Asked Questions</span>
+        </h3>
+
+        <div class="space-y-4 text-xs sm:text-sm">
+          <div class="p-4 rounded-xl bg-slate-900/60 border border-slate-800">
+            <p class="font-bold text-amber-300 mb-1">Q: How can I schedule an in-person site visit to Chola's Empire or Temple Town?</p>
+            <p class="text-slate-300">A: You can fill the Real Estate Enquiry form on Page 3 or message Teekaraman.P directly on WhatsApp at +91 9962699649. We arrange private guided visits with vehicle pickup.</p>
+          </div>
+          <div class="p-4 rounded-xl bg-slate-900/60 border border-slate-800">
+            <p class="font-bold text-amber-300 mb-1">Q: Are the lands and villas 100% legally approved?</p>
+            <p class="text-slate-300">A: Yes. All properties marketed under PrimeShield Group carry complete DTCP and RERA approvals, clear legal titles, and are pre-screened by legal counsel.</p>
+          </div>
+          <div class="p-4 rounded-xl bg-slate-900/60 border border-slate-800">
+            <p class="font-bold text-amber-300 mb-1">Q: Which insurance policies can be customized for factory and industrial workers?</p>
+            <p class="text-slate-300">A: We offer Workmen Compensation (WC Act) policies, Group Health Insurance, and plant breakdown cover underwritten by HDFC ERGO and Central Bank of India partner networks.</p>
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+  </main>
+
+  <!-- ==========================================
+       FOOTER WITH QUICK LINKS
+       ========================================== -->
+  <footer class="glass-navbar border-t border-slate-800 text-slate-400 text-xs py-12 px-4 sm:px-6 lg:px-8 mt-12">
+    <div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-8 mb-8">
+      
+      <!-- Col 1: Brand Info -->
+      <div class="md:col-span-1 space-y-3">
+        <div class="flex items-center gap-2.5">
+          <div class="w-8 h-8 rounded-lg bg-amber-500/20 border border-amber-400/40 flex items-center justify-center text-amber-400">
+            <i class="fa-solid fa-shield-halved text-sm"></i>
+          </div>
+          <span class="text-base font-bold font-serif text-white">PrimeShield Group</span>
+        </div>
+        <p class="text-slate-400 text-[11px] leading-relaxed">
+          Premier Real Estate Acquisitions in SGIM & Comprehensive Institutional Insurance Advisory.
+        </p>
+        <p class="text-amber-400/90 font-medium text-[11px]">
+          Founder: Teekaraman.P
+        </p>
+      </div>
+
+      <!-- Col 2: Navigation Links -->
+      <div>
+        <h4 class="text-white font-bold font-serif uppercase tracking-wider text-xs mb-3">Quick Navigation</h4>
+        <ul class="space-y-2">
+          <li><a href="#home" data-nav-target="page-home" class="hover:text-amber-400 transition-colors">Home (Brand)</a></li>
+          <li><a href="#about" data-nav-target="page-about" class="hover:text-amber-400 transition-colors">About & Services</a></li>
+          <li><a href="#realestate" data-nav-target="page-realestate" class="hover:text-amber-400 transition-colors">Real Estate (SGIM)</a></li>
+          <li><a href="#insurance" data-nav-target="page-insurance" class="hover:text-amber-400 transition-colors">Insurance Advisory</a></li>
+          <li><a href="#contact" data-nav-target="page-contact" class="hover:text-amber-400 transition-colors">Contact / Advisory</a></li>
+        </ul>
+      </div>
+
+      <!-- Col 3: SGIM Developments -->
+      <div>
+        <h4 class="text-white font-bold font-serif uppercase tracking-wider text-xs mb-3">Flagship SGIM Projects</h4>
+        <ul class="space-y-2">
+          <li><a href="#realestate" data-nav-target="page-realestate" class="hover:text-amber-400 transition-colors">Chola's Empire (Lands & Villas)</a></li>
+          <li><a href="#realestate" data-nav-target="page-realestate" class="hover:text-amber-400 transition-colors">Temple Town (Pure Vaastu Plots)</a></li>
+          <li><a href="#realestate" data-nav-target="page-realestate" class="hover:text-amber-400 transition-colors">Vateka (Eco-Smart Township)</a></li>
+          <li><a href="#insurance" data-nav-target="page-insurance" class="hover:text-amber-400 transition-colors">Industrial Health & Safety Cover</a></li>
+        </ul>
+      </div>
+
+      <!-- Col 4: Contact & Emergency Support -->
+      <div>
+        <h4 class="text-white font-bold font-serif uppercase tracking-wider text-xs mb-3">Direct Contact</h4>
+        <div class="space-y-2 text-[11px]">
+          <p class="text-slate-300"><i class="fa-solid fa-phone text-amber-400 mr-2"></i> +91 99626 99649 / 79044 95355</p>
+          <p class="text-slate-300"><i class="fa-brands fa-whatsapp text-emerald-400 mr-2"></i> +91 99626 99649 / 81486 03963</p>
+          <p class="text-slate-300"><i class="fa-solid fa-envelope text-amber-400 mr-2"></i> primeshieldgroup@gmail.com</p>
+          <div class="pt-2">
+            <button type="button" class="btn-open-admin-portal text-[11px] text-amber-400 hover:underline flex items-center gap-1">
+              <i class="fa-solid fa-shield-keyhole"></i> Admin & Leads Console
+            </button>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Copyright Sub-bar -->
+    <div class="max-w-7xl mx-auto pt-6 border-t border-slate-800 flex flex-col sm:flex-row items-center justify-between gap-4 text-[11px]">
+      <p>&copy; 2026 PrimeShield Group. All rights reserved. RERA & DTCP Registered Advisory.</p>
+      <div class="flex items-center gap-4">
+        <span>Founder: Teekaraman.P</span>
+        <span>•</span>
+        <span>SGIM Region, Tamil Nadu</span>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ========================================================
+       FLOATING WHATSAPP BUTTON (PRESENT ON EVERY PAGE)
+       Floating Speed-Dial with pre-configured chat routing
+       ======================================================== -->
+  <div class="fixed bottom-6 right-6 z-50 flex flex-col items-end">
+    
+    <!-- WhatsApp Pop-out Quick Drawer -->
+    <div id="floating-whatsapp-drawer" class="hidden mb-3 w-72 sm:w-80 glass-panel rounded-2xl p-4 shadow-2xl border border-emerald-500/40 text-xs animate-fadeIn">
+      <div class="flex items-center justify-between pb-2.5 border-b border-slate-700/60 mb-3">
+        <div class="flex items-center gap-2">
+          <div class="w-7 h-7 rounded-full bg-emerald-500/20 text-emerald-400 flex items-center justify-center">
+            <i class="fa-brands fa-whatsapp text-base"></i>
+          </div>
+          <div>
+            <p class="font-bold text-white font-serif">PrimeShield WhatsApp</p>
+            <p class="text-[10px] text-emerald-400 font-semibold">Online • Typically replies instantly</p>
+          </div>
+        </div>
+        <button id="close-whatsapp-drawer" type="button" class="text-slate-400 hover:text-white p-1">
+          <i class="fa-solid fa-xmark text-sm"></i>
+        </button>
+      </div>
+
+      <p class="text-[11px] text-slate-300 mb-3">
+        Choose a direct advisory channel to chat with our leadership team:
+      </p>
+
+      <div class="space-y-2">
+        <a href="https://wa.me/919962699649?text=Hello%20Teekaraman.P%2C%20I%20am%20interested%20in%20PrimeShield%20Group%20Real%20Estate%20and%20Insurance%20Advisory." target="_blank" rel="noopener noreferrer" class="p-2.5 rounded-xl bg-slate-900/90 hover:bg-slate-800 border border-slate-700 hover:border-emerald-400 flex items-center justify-between text-white font-semibold transition-colors group">
+          <div class="flex items-center gap-2.5">
+            <i class="fa-brands fa-whatsapp text-emerald-400 text-base"></i>
+            <div>
+              <p class="text-xs text-white">Teekaraman.P (Primary)</p>
+              <p class="text-[10px] text-slate-400">+91 99626 99649</p>
+            </div>
+          </div>
+          <span class="text-[10px] text-emerald-400 group-hover:translate-x-0.5 transition-transform">Chat &rarr;</span>
+        </a>
+
+        <a href="https://wa.me/918148603963?text=Hello%20PrimeShield%20Group%2C%20I%20am%20interested%20in%20your%20services." target="_blank" rel="noopener noreferrer" class="p-2.5 rounded-xl bg-slate-900/90 hover:bg-slate-800 border border-slate-700 hover:border-emerald-400 flex items-center justify-between text-white font-semibold transition-colors group">
+          <div class="flex items-center gap-2.5">
+            <i class="fa-brands fa-whatsapp text-emerald-400 text-base"></i>
+            <div>
+              <p class="text-xs text-white">Advisory Support Line</p>
+              <p class="text-[10px] text-slate-400">+91 81486 03963</p>
+            </div>
+          </div>
+          <span class="text-[10px] text-emerald-400 group-hover:translate-x-0.5 transition-transform">Chat &rarr;</span>
+        </a>
+      </div>
+
+      <div class="mt-3 pt-2 border-t border-slate-700/50 text-[10px] text-slate-400 flex items-center justify-between">
+        <span>Tap to call instead:</span>
+        <a href="tel:9962699649" class="text-amber-400 font-bold hover:underline">+91 99626 99649</a>
+      </div>
+    </div>
+
+    <!-- Main Floating WhatsApp Icon Trigger -->
+    <button id="floating-whatsapp-trigger" type="button" class="w-14 h-14 rounded-full bg-emerald-500 hover:bg-emerald-400 text-white flex items-center justify-center text-2xl shadow-2xl whatsapp-pulse transition-transform hover:scale-110 active:scale-95 group" aria-label="Open WhatsApp Chat">
+      <i class="fa-brands fa-whatsapp drop-shadow-md"></i>
+      <span class="sr-only">Contact on WhatsApp</span>
+    </button>
+  </div>
+
+  <!-- ========================================================
+       MODAL: LIGHTBOX FOR VILLA GALLERY (UP TO 5 IMAGES)
+       ======================================================== -->
+  <div id="villa-lightbox-modal" class="hidden fixed inset-0 z-50 bg-black/95 backdrop-blur-xl flex flex-col items-center justify-between p-4 sm:p-6 animate-fadeIn">
+    
+    <!-- Lightbox Header -->
+    <div class="w-full max-w-5xl flex items-center justify-between text-white">
+      <div>
+        <h4 id="lightbox-title" class="text-base sm:text-lg font-bold font-serif text-white">Villa Gallery</h4>
+        <p id="lightbox-counter" class="text-xs text-amber-400">1 / 5</p>
+      </div>
+      <div class="flex items-center gap-3">
+        <a id="lightbox-whatsapp-link" href="#" target="_blank" class="px-3 py-1.5 rounded-lg bg-emerald-600 hover:bg-emerald-500 text-white text-xs font-bold flex items-center gap-1.5 transition-colors">
+          <i class="fa-brands fa-whatsapp"></i>
+          <span>Enquire About This Villa</span>
+        </a>
+        <button id="close-lightbox-btn" type="button" class="w-9 h-9 rounded-full bg-slate-800 hover:bg-slate-700 text-white flex items-center justify-center text-base transition-colors">
+          <i class="fa-solid fa-xmark"></i>
+        </button>
+      </div>
+    </div>
+
+    <!-- Main Image Display with Navigation Arrows -->
+    <div class="relative w-full max-w-5xl flex-1 flex items-center justify-center my-4 overflow-hidden">
+      <button id="lightbox-prev-btn" type="button" class="absolute left-2 sm:left-4 z-10 w-11 h-11 rounded-full bg-black/60 hover:bg-black/90 text-white flex items-center justify-center text-lg border border-slate-700 hover:border-amber-400 transition-colors">
+        <i class="fa-solid fa-chevron-left"></i>
+      </button>
+
+      <img id="lightbox-main-img" src="" alt="Villa Full View" class="max-h-[70vh] max-w-full object-contain rounded-xl shadow-2xl transition-all duration-300">
+
+      <button id="lightbox-next-btn" type="button" class="absolute right-2 sm:right-4 z-10 w-11 h-11 rounded-full bg-black/60 hover:bg-black/90 text-white flex items-center justify-center text-lg border border-slate-700 hover:border-amber-400 transition-colors">
+        <i class="fa-solid fa-chevron-right"></i>
+      </button>
+    </div>
+
+    <!-- Thumbnails Strip -->
+    <div id="lightbox-thumbs" class="w-full max-w-3xl flex items-center justify-center gap-2 overflow-x-auto py-2">
+      <!-- Injected by RealEstateModule -->
+    </div>
+
+  </div>
+
+  <!-- ========================================================
+       MODAL: REAL ESTATE ENQUIRY SUCCESS MESSAGE
+       ======================================================== -->
+  <div id="re-success-modal" class="hidden fixed inset-0 z-50 bg-black/80 backdrop-blur-md flex items-center justify-center p-4 animate-fadeIn">
+    <div class="max-w-md w-full glass-panel rounded-3xl p-6 sm:p-8 border border-amber-500/40 shadow-2xl text-center">
+      <div class="w-16 h-16 rounded-full bg-amber-500/20 text-amber-400 border border-amber-400/50 flex items-center justify-center text-3xl mx-auto mb-4 animate-pulse">
+        <i class="fa-solid fa-circle-check"></i>
+      </div>
+      <h3 class="text-2xl font-bold text-white font-serif mb-2">Enquiry Registered!</h3>
+      <p class="text-xs text-slate-300 mb-6">
+        Thank you. Your real estate requirement and site visit schedule have been recorded.
+      </p>
+
+      <div id="re-modal-summary" class="p-4 rounded-xl bg-slate-900/80 border border-slate-800 text-left mb-6"></div>
+
+      <div class="space-y-3">
+        <a id="re-modal-whatsapp-btn" href="#" target="_blank" class="w-full py-3 rounded-xl bg-emerald-600 hover:bg-emerald-500 text-white font-bold text-xs flex items-center justify-center gap-2 shadow-lg shadow-emerald-900/50 transition-colors">
+          <i class="fa-brands fa-whatsapp text-sm"></i>
+          <span>Forward Enquiry Directly on WhatsApp</span>
+        </a>
+        <button id="close-re-success-modal" type="button" class="w-full py-2.5 rounded-xl bg-slate-800 hover:bg-slate-700 text-slate-300 font-semibold text-xs transition-colors">
+          Done & Close
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- ========================================================
+       MODAL: INSURANCE ENQUIRY SUCCESS MESSAGE
+       ======================================================== -->
+  <div id="ins-success-modal" class="hidden fixed inset-0 z-50 bg-black/80 backdrop-blur-md flex items-center justify-center p-4 animate-fadeIn">
+    <div class="max-w-md w-full glass-panel rounded-3xl p-6 sm:p-8 border border-amber-500/40 shadow-2xl text-center">
+      <div class="w-16 h-16 rounded-full bg-amber-500/20 text-amber-400 border border-amber-400/50 flex items-center justify-center text-3xl mx-auto mb-4 animate-pulse">
+        <i class="fa-solid fa-shield-halved"></i>
+      </div>
+      <h3 class="text-2xl font-bold text-white font-serif mb-2">Consultation Scheduled!</h3>
+      <p class="text-xs text-slate-300 mb-6">
+        Your insurance consultation details have been submitted securely to PrimeShield Advisory.
+      </p>
+
+      <div id="ins-modal-summary" class="p-4 rounded-xl bg-slate-900/80 border border-slate-800 text-left mb-6"></div>
+
+      <div class="space-y-3">
+        <a id="ins-modal-whatsapp-btn" href="#" target="_blank" class="w-full py-3 rounded-xl bg-emerald-600 hover:bg-emerald-500 text-white font-bold text-xs flex items-center justify-center gap-2 shadow-lg shadow-emerald-900/50 transition-colors">
+          <i class="fa-brands fa-whatsapp text-sm"></i>
+          <span>Send Summary on WhatsApp to Teekaraman.P</span>
+        </a>
+        <button id="close-ins-success-modal" type="button" class="w-full py-2.5 rounded-xl bg-slate-800 hover:bg-slate-700 text-slate-300 font-semibold text-xs transition-colors">
+          Done & Close
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- ========================================================
+       MODAL: PASSWORD-PROTECTED ADMIN PORTAL
+       Manage Unlimited Villas (Add, Edit, Delete) & Leads Console
+       ======================================================== -->
+  <div id="admin-portal-modal" class="hidden fixed inset-0 z-50 bg-black/85 backdrop-blur-md flex items-center justify-center p-4 animate-fadeIn">
+    <div class="w-full max-w-4xl max-h-[90vh] overflow-y-auto glass-panel rounded-3xl p-6 sm:p-8 border border-amber-500/40 shadow-2xl flex flex-col">
+      
+      <!-- Modal Header -->
+      <div class="flex items-center justify-between pb-4 border-b border-slate-800 mb-6">
+        <div class="flex items-center gap-3">
+          <div class="w-10 h-10 rounded-xl bg-amber-500/20 text-amber-400 flex items-center justify-center text-lg">
+            <i class="fa-solid fa-lock"></i>
+          </div>
+          <div>
+            <h3 class="text-xl font-bold text-white font-serif">PrimeShield Admin Portal</h3>
+            <p class="text-xs text-slate-400">Manage Unlimited Villas & Customer Enquiries</p>
+          </div>
+        </div>
+        <button id="close-admin-portal" type="button" class="w-8 h-8 rounded-full bg-slate-800 hover:bg-slate-700 text-white flex items-center justify-center text-sm">
+          <i class="fa-solid fa-xmark"></i>
+        </button>
+      </div>
+
+      <!-- VIEW 1: Password Prompt -->
+      <div id="admin-login-view" class="py-8 max-w-sm mx-auto text-center w-full">
+        <p class="text-xs text-slate-300 mb-4">
+          Enter administrative access key to unlock villa management and customer enquiry databases.
+        </p>
+
+        <form id="admin-login-form" class="space-y-4">
+          <div>
+            <input type="password" id="admin-password-input" required placeholder="Default password: prime" class="w-full p-3 rounded-xl bg-slate-900 border border-slate-700 text-white text-center text-sm gold-focus">
+          </div>
+
+          <div id="admin-login-error" class="hidden text-rose-400 text-xs font-semibold">
+            Incorrect password. Hint: default password is <code class="text-amber-400">prime</code>.
+          </div>
+
+          <button type="submit" class="w-full py-3 rounded-xl btn-gold text-slate-950 font-bold text-xs uppercase tracking-wider">
+            Authorize & Enter Portal
+          </button>
+        </form>
+      </div>
+
+      <!-- VIEW 2: Admin Dashboard (Villa CRUD & Leads) -->
+      <div id="admin-dashboard-view" class="hidden space-y-8 flex-1">
+        
+        <!-- Controls bar -->
+        <div class="flex flex-wrap items-center justify-between gap-4 p-4 rounded-2xl bg-slate-900/60 border border-slate-800">
+          <div class="flex items-center gap-3">
+            <span class="text-xs text-slate-400">Signed in as: <strong class="text-amber-300">Administrator</strong></span>
+            <span id="backend-status-badge" class="hidden text-[10px] px-2 py-0.5 rounded bg-emerald-500/20 text-emerald-300 border border-emerald-500/40 font-semibold">
+              Live Backend Active
+            </span>
+          </div>
+          <div class="flex items-center gap-2">
+            <button type="button" id="btn-admin-add-villa" class="px-3.5 py-2 rounded-xl btn-gold text-slate-950 text-xs font-bold flex items-center gap-1.5">
+              <i class="fa-solid fa-plus"></i> Add New Villa
+            </button>
+            <button type="button" id="btn-export-enquiries-csv" class="px-3.5 py-2 rounded-xl bg-slate-800 hover:bg-slate-700 text-slate-200 border border-slate-700 text-xs font-semibold flex items-center gap-1.5">
+              <i class="fa-solid fa-file-csv text-amber-400"></i> Export Leads (CSV)
+            </button>
+            <button type="button" id="btn-admin-logout" class="px-3 py-2 rounded-xl bg-rose-500/20 hover:bg-rose-500/30 text-rose-300 text-xs font-semibold">
+              Logout
+            </button>
+          </div>
+        </div>
+
+        <!-- Section A: Villa Listings Manager -->
+        <div>
+          <div class="flex items-center justify-between mb-3">
+            <h4 class="text-base font-bold text-white font-serif flex items-center gap-2">
+              <i class="fa-solid fa-hotel text-amber-400"></i>
+              <span>Active Villa Inventory (Unlimited)</span>
+            </h4>
+          </div>
+
+          <div class="overflow-x-auto rounded-xl border border-slate-800 bg-slate-900/30">
+            <table class="w-full text-left border-collapse">
+              <thead>
+                <tr class="border-b border-slate-800 bg-slate-900/80 text-[11px] font-bold uppercase tracking-wider text-slate-400">
+                  <th class="py-3 px-4">Villa Details</th>
+                  <th class="py-3 px-4">Located Area</th>
+                  <th class="py-3 px-4">Sq.Ft</th>
+                  <th class="py-3 px-4">Price</th>
+                  <th class="py-3 px-4">Images</th>
+                  <th class="py-3 px-4 text-right">Actions</th>
+                </tr>
+              </thead>
+              <tbody id="admin-villas-table-body">
+                <!-- Injected by AdminModule -->
+              </tbody>
+            </table>
+          </div>
+          <p id="admin-villas-empty" class="hidden text-center py-6 text-xs text-slate-400">No villas in database.</p>
+        </div>
+
+        <!-- Section B: Customer Enquiries Console -->
+        <div>
+          <div class="flex items-center justify-between mb-3">
+            <div class="flex items-center gap-2">
+              <h4 class="text-base font-bold text-white font-serif flex items-center gap-2">
+                <i class="fa-solid fa-address-card text-amber-400"></i>
+                <span>Enquiries & Leads Submissions</span>
+              </h4>
+              <span id="admin-enquiry-count" class="text-[10px] px-2 py-0.5 rounded-full bg-amber-500/10 text-amber-300 border border-amber-500/30 font-bold">
+                0 Leads
+              </span>
+            </div>
+          </div>
+
+          <div class="overflow-x-auto rounded-xl border border-slate-800 bg-slate-900/30">
+            <table class="w-full text-left border-collapse">
+              <thead>
+                <tr class="border-b border-slate-800 bg-slate-900/80 text-[11px] font-bold uppercase tracking-wider text-slate-400">
+                  <th class="py-3 px-4">Date</th>
+                  <th class="py-3 px-4">Category</th>
+                  <th class="py-3 px-4">Client Name & Info</th>
+                  <th class="py-3 px-4">Mobile</th>
+                  <th class="py-3 px-4">Requirement / Timing</th>
+                  <th class="py-3 px-4 text-right">Connect</th>
+                </tr>
+              </thead>
+              <tbody id="admin-enquiries-table-body">
+                <!-- Injected by AdminModule -->
+              </tbody>
+            </table>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+
+  <!-- ========================================================
+       MODAL: ADD / EDIT VILLA MODAL
+       ======================================================== -->
+  <div id="villa-edit-modal" class="hidden fixed inset-0 z-50 bg-black/85 backdrop-blur-md flex items-center justify-center p-4 animate-fadeIn">
+    <div class="w-full max-w-2xl max-h-[90vh] overflow-y-auto glass-panel rounded-3xl p-6 sm:p-8 border border-amber-500/40 shadow-2xl">
+      
+      <div class="flex items-center justify-between pb-3 border-b border-slate-800 mb-6">
+        <h4 id="villa-edit-modal-title" class="text-lg font-bold text-white font-serif">Add New Villa Listing</h4>
+        <button id="close-villa-edit-modal" type="button" class="w-8 h-8 rounded-full bg-slate-800 hover:bg-slate-700 text-white flex items-center justify-center text-sm">
+          <i class="fa-solid fa-xmark"></i>
+        </button>
+      </div>
+
+      <form id="villa-edit-form" class="space-y-4 text-xs">
+        
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+          <div>
+            <label class="block text-slate-300 font-semibold mb-1">Villa Title / Name *</label>
+            <input type="text" id="edit-villa-title" required placeholder="e.g. Imperial Heritage Villa" class="w-full p-2.5 rounded-xl bg-slate-900 border border-slate-700 text-white text-xs gold-focus">
+          </div>
+          <div>
+            <label class="block text-slate-300 font-semibold mb-1">Project *</label>
+            <select id="edit-villa-project" class="w-full p-2.5 rounded-xl bg-slate-900 border border-slate-700 text-white text-xs gold-focus">
+              <option value="Chola's Empire">Chola's Empire</option>
+              <option value="Temple Town">Temple Town</option>
+              <option value="Vateka">Vateka</option>
+              <option value="SGIM Corridor">SGIM Prime Corridor</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="grid grid-cols-1 sm:grid-cols-3 gap-4">
+          <div>
+            <label class="block text-slate-300 font-semibold mb-1">Located Area / Sector *</label>
+            <input type="text" id="edit-villa-area" required placeholder="e.g. SGIM Avenue, Sector 2" class="w-full p-2.5 rounded-xl bg-slate-900 border border-slate-700 text-white text-xs gold-focus">
+          </div>
+          <div>
+            <label class="block text-slate-300 font-semibold mb-1">Square Feet (Sq.Ft) *</label>
+            <input type="number" id="edit-villa-sqft" required placeholder="2400" min="500" max="10000" class="w-full p-2.5 rounded-xl bg-slate-900 border border-slate-700 text-white text-xs gold-focus">
+          </div>
+          <div>
+            <label class="block text-slate-300 font-semibold mb-1">BHK / Type</label>
+            <input type="text" id="edit-villa-bhk" placeholder="e.g. 4 BHK Duplex" class="w-full p-2.5 rounded-xl bg-slate-900 border border-slate-700 text-white text-xs gold-focus">
+          </div>
+        </div>
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+          <div>
+            <label class="block text-slate-300 font-semibold mb-1">Price / Display Tag</label>
+            <input type="text" id="edit-villa-price" placeholder="e.g. ₹1.25 Crores" class="w-full p-2.5 rounded-xl bg-slate-900 border border-slate-700 text-white text-xs gold-focus">
+          </div>
+          <div>
+            <label class="block text-slate-300 font-semibold mb-1">Status</label>
+            <select id="edit-villa-status" class="w-full p-2.5 rounded-xl bg-slate-900 border border-slate-700 text-white text-xs gold-focus">
+              <option value="Ready to Move">Ready to Move</option>
+              <option value="Under Construction">Under Construction</option>
+              <option value="Ready for Registration">Ready for Registration</option>
+              <option value="Exclusive Launch">Exclusive Launch</option>
+            </select>
+          </div>
+        </div>
+
+        <div>
+          <label class="block text-slate-300 font-semibold mb-1">Short Description</label>
+          <textarea id="edit-villa-desc" rows="2" placeholder="Key highlights, architecture, luxury finishes..." class="w-full p-2.5 rounded-xl bg-slate-900 border border-slate-700 text-white text-xs gold-focus"></textarea>
+        </div>
+
+        <!-- Up to 5 Image URLs for Carousel / Lightbox -->
+        <div class="pt-2 border-t border-slate-800">
+          <label class="block text-amber-300 font-bold mb-2">Villa Images (Up to 5 Photos for Gallery & Lightbox)</label>
+          <div class="space-y-2">
+            <input type="url" id="edit-villa-img-1" placeholder="Image 1 URL (Primary Cover)" class="w-full p-2 rounded-lg bg-slate-900 border border-slate-700 text-white text-xs gold-focus">
+            <input type="url" id="edit-villa-img-2" placeholder="Image 2 URL (Interior / Foyer)" class="w-full p-2 rounded-lg bg-slate-900 border border-slate-700 text-white text-xs gold-focus">
+            <input type="url" id="edit-villa-img-3" placeholder="Image 3 URL (Master Bedroom / Balcony)" class="w-full p-2 rounded-lg bg-slate-900 border border-slate-700 text-white text-xs gold-focus">
+            <input type="url" id="edit-villa-img-4" placeholder="Image 4 URL (Kitchen / Dining)" class="w-full p-2 rounded-lg bg-slate-900 border border-slate-700 text-white text-xs gold-focus">
+            <input type="url" id="edit-villa-img-5" placeholder="Image 5 URL (Garden / Deck)" class="w-full p-2 rounded-lg bg-slate-900 border border-slate-700 text-white text-xs gold-focus">
+          </div>
+          <p class="text-[10px] text-slate-500 mt-1">Leave empty to use high-resolution luxury presets.</p>
+        </div>
+
+        <div class="pt-4 flex items-center justify-end gap-3">
+          <button type="button" onclick="document.getElementById('villa-edit-modal').classList.add('hidden')" class="px-4 py-2 rounded-xl bg-slate-800 hover:bg-slate-700 text-slate-300 font-semibold">
+            Cancel
+          </button>
+          <button type="submit" class="px-5 py-2 rounded-xl btn-gold text-slate-950 font-bold">
+            Save Villa Listing
+          </button>
+        </div>
+
+      </form>
+
+    </div>
+  </div>
+
+  <!-- Javascript Modules -->
+  <script src="js/data.js"></script>
+  <script src="js/background.js"></script>
+  <script src="js/realestate.js"></script>
+  <script src="js/insurance.js"></script>
+  <script src="js/admin.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
