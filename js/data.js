@@ -45,14 +45,14 @@ const DEFAULT_PRESETS = {
   ]
 };
 
-const SGIM_PROJECTS = [
+const SGIR_PROJECTS = [
   {
     id: 'cholas-empire',
     name: "Chola's Empire",
-    tagline: 'Imperial Living Meets Unrivaled Heritage in SGIM',
+    tagline: 'Imperial Living Meets Unrivaled Heritage in SGIR',
     type: 'Exclusive Lands & Sovereign Villas',
     priceStarting: '₹95 Lakhs',
-    location: 'SGIM Prime Growth Corridor, Grand Trunk Highway',
+    location: 'SGIR Prime Growth Corridor, Grand Trunk Highway',
     description: "Inspired by the timeless grandeur of the Cholas, this gated sanctuary spans verdant acres featuring wide 40ft blacktop avenues, underground electrical cabling, royal clubhouse, and round-the-clock biosecurity.",
     highlights: ['DTCP & RERA Approved', 'Clubhouse & Royal Arch', 'Avenue Plantations', '100% Clear Title', 'Ready for Construction'],
     unitsAvailable: 'Plots: 1200 - 3500 sq.ft | Villas: 3 & 4 BHK Duplex'
@@ -63,7 +63,7 @@ const SGIM_PROJECTS = [
     tagline: 'Sacred Harmony & Pure Vaastu Sanctuary',
     type: 'Bespoke Villas & Vaastu-Compliant Lands',
     priceStarting: '₹98 Lakhs',
-    location: 'SGIM Heritage Precinct, Near Sacred Shrines',
+    location: 'SGIR Heritage Precinct, Near Sacred Shrines',
     description: "Immerse your family in peaceful tranquility. Temple Town blends serene spirituality with first-class infrastructure: purified water lines, temple architecture motif parks, walking promenades, and pure Vaastu orientations.",
     highlights: ['100% Vaastu Compliant', 'Abundant Potable Water', 'Heritage Landscape Gardens', '24/7 Monitored Gating', 'Instant Registration'],
     unitsAvailable: 'Plots: 1500 - 4000 sq.ft | Villas: 3 BHK Heritage Design'
@@ -74,7 +74,7 @@ const SGIM_PROJECTS = [
     tagline: 'Futuristic Eco-Township & Smart Architectural Living',
     type: 'Ultra-Modern Villas & Investment Plots',
     priceStarting: '₹1.15 Crores',
-    location: 'SGIM Tech & Industrial Expressway Zone',
+    location: 'SGIR Tech & Industrial Expressway Zone',
     description: "Designed for the modern visionary, Vateka offers contemporary architectural villas nestled within lush greenery, solar-powered pathways, private swimming pools, and high-capital-appreciation acreage.",
     highlights: ['Smart Home Automation', 'Eco-Sol Energy Systems', 'Private Infinity Decks', 'Multi-Sport Courts', 'High Rental Yield Zone'],
     unitsAvailable: 'Plots: 1800 - 5000 sq.ft | Villas: 4 & 5 BHK Smart Villas'
@@ -86,7 +86,7 @@ const INITIAL_VILLAS = [
     id: 'villa-101',
     title: "The Chola Imperial Duplex",
     project: "Chola's Empire",
-    area: "SGIM Prime Avenue, Sector 1",
+    area: "SGIR Prime Avenue, Sector 1",
     sqft: 2450,
     bhk: "4 BHK Duplex",
     priceDisplay: "₹1.28 Crores",
@@ -104,7 +104,7 @@ const INITIAL_VILLAS = [
     id: 'villa-102',
     title: "Temple Town Sanctorum Residence",
     project: "Temple Town",
-    area: "SGIM Heritage Sanctum, Plot 42",
+    area: "SGIR Heritage Sanctum, Plot 42",
     sqft: 1850,
     bhk: "3 BHK Independent Villa",
     priceDisplay: "₹98 Lakhs",
@@ -122,7 +122,7 @@ const INITIAL_VILLAS = [
     id: 'villa-103',
     title: "Vateka Green Haven Signature Villa",
     project: "Vateka",
-    area: "SGIM Eco-Boulevard, Phase 2",
+    area: "SGIR Eco-Boulevard, Phase 2",
     sqft: 2900,
     bhk: "4 BHK Luxury Villa",
     priceDisplay: "₹1.45 Crores",
@@ -140,7 +140,7 @@ const INITIAL_VILLAS = [
     id: 'villa-104',
     title: "Chola's Rajendra Sovereign Estate",
     project: "Chola's Empire",
-    area: "SGIM Grand Boulevard, Corner Plot 1",
+    area: "SGIR Grand Boulevard, Corner Plot 1",
     sqft: 3250,
     bhk: "5 BHK Ultra-Spacious Manor",
     priceDisplay: "₹1.60 Crores",
@@ -161,12 +161,12 @@ const SERVICES_DATA = [
     id: 'real-estate',
     title: 'Real Estate Advisory',
     icon: 'fa-building-shield',
-    tagline: 'Strategic Acquisitions & Gated Communities in SGIM',
-    desc: 'Uncompromising legal verification, DTCP/RERA compliance, and high-capital-appreciation lands and bespoke luxury villas in top-tier SGIM townships.',
+    tagline: 'Strategic Acquisitions & Gated Communities in SGIR',
+    desc: 'Uncompromising legal verification, DTCP/RERA compliance, and high-capital-appreciation lands and bespoke luxury villas in top-tier SGIR townships.',
     points: [
       '100% Encumbrance-Free Clear Titles',
       'Exclusive Villa Customization & Construction',
-      'High Returns in SGIM Growth Corridor',
+      'High Returns in SGIR Growth Corridor',
       'End-to-End Legal & Registration Concierge'
     ],
     targetPage: 'page-realestate'
@@ -253,6 +253,14 @@ const PARTNER_INSURERS = [
     desc: 'Over a century of national financial legacy providing safe bancassurance, credit-linked insurance, and social security schemes.',
     specialties: ['Bancassurance Solutions', 'Rural & Micro Insurance', 'Loan Protection'],
     logoText: 'Central Bank'
+  },
+  {
+    id: 'icic',
+    name: 'ICIC Lombard',
+    badge: 'Specialized General',
+    desc: 'ICICI Lombard Criti Shield Plus offers financial protection against critical illnesses and medical emergencies.',
+    specialties: ['Life Insurance', 'Health Insurance', 'Motor Insurance(Car & Bike)', 'Travel Insurance'],
+    logoText: 'ICIC Lombard'
   }
 ];
 
@@ -267,6 +275,5 @@ const CONTACT_INFO = {
     { display: '+91 99626 99649 (Primary Advisory)', raw: '9962699649' },
     { display: '+91 81486 03963 (Direct Support)', raw: '8148603963' }
   ],
-  email: 'primeshieldgroup@gmail.com',
-  address: 'PrimeShield Group Advisory Suite, SGIM Prime Hub, Tamil Nadu, India'
+  email: 'ptjayandhan@gmail.com',
 };
